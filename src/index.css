@@ -1,13 +1,174 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+ ul{
+   list-style-type: none;
+ }
+body {
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+  background-color:#1e427c;
+}
+.header .links{
+margin: 0 10px;
+text-decoration: none;
+color: #fff;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.showcase{
+  height: 650px;
+  background: url(./asset/image1.jpg) center ;
+  background-size: cover;
+
+}
+.showcase .overlay{
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:rgba(0, 0, 0,  0.4);
+  color: #fff;
+  cursor: pointer;
+}
+.showcase .overlay h1{
+  font-size: 36px;
+  text-transform: uppercase;
+
+}
+.showcase .overlay p{
+  text-transform: capitalize;
+  padding-top: 20px;
+  
+}
+.grid{
+padding: 50px ;
+}
+.grid h3{
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  padding-bottom: 20px;
+}
+.grid-image div  {
+  background-color: #f1f1f1;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+.grid-image div img{
+  border-radius: 20px;
+}
+.grid-image div h4{
+  padding: 10px 0;
+  font-size: 22px;
+}
+.grid-image div p{
+  line-height: 1.8 ;
+}
+.footer{
+    background-color: #333;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.footer li{
+  margin: 10px 0;
+}
+.footer li button{
+  background-color: transparent;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.4s ease-in-out ;
+}
+.footer li button:hover{
+  background-color: #1e427c;
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+  input{
+  margin: 8px 0;
+  width: 80vw;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #000;
+  outline: none;
+
+}
+.form input::placeholder{
+  font-weight: 800;
+  color: #000;
+  text-transform: initial;
+}
+.form button{
+  color: #fff;
+  background-color: #1e427c;
+  padding: 8px;
+  border: 2px solid #1e427c;
+  outline: none;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background-color 0.4s ease-in-out;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.form button:hover{
+  background-color: transparent;
+  cursor: pointer;
+}
+@media (min-width:760px){
+  .overlay h1{
+    font-size: 64px;
+  }
+  .overlay p{
+    font-size: 25px;
+  }
+  .grid-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }
+  .grid-image div img{
+    height: 150px;
+    width: 300px;
+  }
+}
+@media  (min-width:992px){
+  .grid .grid-image{
+
+    grid-template-columns: repeat(3,1fr);
+      text-align: center;
+  }
+  .form input{
+     width: 50vw;
+   }
 }
