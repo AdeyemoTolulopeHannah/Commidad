@@ -1,0 +1,41 @@
+.logo img{
+    height: 50px;
+    width: 120px;
+    object-fit: cover;
+    background-color: black;
+}
+.link{
+    font-size: 1em;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-right: 1em;
+    margin-bottom: .6em;
+
+}
+.footerWrapper{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding: 2em 3.5em;
+}
+.links,.social{
+    display: flex;
+    flex-direction: column;
+}
+.links h6,.social h6{
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #fff;
+    padding-bottom: 1em;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: .6em;
+    text-transform: uppercase;
+}

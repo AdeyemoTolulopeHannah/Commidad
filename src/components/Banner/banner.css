@@ -1,0 +1,23 @@
+.banner {
+  background-image: url(/src/bgImage/4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  
+}
+.content{
+padding-top: 12em;
+text-align: center;
+}
+.content h3{
+ font-size: 3em;
+ color: rgb(68, 66, 66);
+ padding-bottom: .6em;
+ text-transform: uppercase;
+
+}
+.button{
+  padding: 1em 4em;
+}

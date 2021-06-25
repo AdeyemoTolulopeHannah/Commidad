@@ -1,0 +1,10 @@
+button{
+  
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 10px;
+    text-transform: capitalize;
+}

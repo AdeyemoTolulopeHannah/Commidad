@@ -1,0 +1,42 @@
+[debug] [2021-03-18T23:44:28.873Z] ----------------------------------------------------------------------
+[debug] [2021-03-18T23:44:28.879Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TOLULOPE\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-18T23:44:28.880Z] CLI Version:   9.6.1
+[debug] [2021-03-18T23:44:28.880Z] Platform:      win32
+[debug] [2021-03-18T23:44:28.880Z] Node Version:  v14.15.0
+[debug] [2021-03-18T23:44:28.882Z] Time:          Fri Mar 19 2021 00:44:28 GMT+0100 (West Africa Standard Time)
+[debug] [2021-03-18T23:44:28.882Z] ----------------------------------------------------------------------
+[debug] [2021-03-18T23:44:28.883Z] 
+[debug] [2021-03-18T23:44:28.893Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-18T23:44:28.893Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\TOLULOPE\Documents\REACT P\another\travelme
+
+[debug] [2021-03-18T23:47:55.791Z] ----------------------------------------------------------------------
+[debug] [2021-03-18T23:47:55.794Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TOLULOPE\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-18T23:47:55.794Z] CLI Version:   9.6.1
+[debug] [2021-03-18T23:47:55.794Z] Platform:      win32
+[debug] [2021-03-18T23:47:55.794Z] Node Version:  v14.15.0
+[debug] [2021-03-18T23:47:55.796Z] Time:          Fri Mar 19 2021 00:47:55 GMT+0100 (West Africa Standard Time)
+[debug] [2021-03-18T23:47:55.796Z] ----------------------------------------------------------------------
+[debug] [2021-03-18T23:47:55.796Z] 
+[debug] [2021-03-18T23:47:55.808Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-18T23:47:55.809Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\TOLULOPE\Documents\REACT P\another\travelme
+

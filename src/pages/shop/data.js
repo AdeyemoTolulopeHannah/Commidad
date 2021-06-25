@@ -1,0 +1,47 @@
+const data = {
+    products : [
+        {
+            id:'1',
+            name:'food1',
+            price:'30',
+            image:'images/1.jpg',
+            favourite:true,
+        },
+        {
+            id:'2',
+            name:'food2',
+            price:'35',
+            image:'images/2.jpg',
+            favourite:false,
+        },
+        {
+            id:'3',
+            name:'food3',
+            price:'27',
+            image:'images/3.jpg',
+            favourite:true,
+        },
+        {
+            id:'4',
+            name:'food4',
+            price:'30',
+            image:'images/4.jpg',
+            favourite:true,
+        },
+        {
+            id:'5',
+            name:'food5',
+            price:'30',
+            image:'images/5.jpg',
+            favourite:false,
+        },
+        {
+            id:'6',
+            name:'food6',
+            price:'40',
+            image:'images/6.jpg',
+            favourite:true,
+        },
+    ]
+}
+export default data
