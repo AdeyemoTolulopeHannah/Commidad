@@ -33,7 +33,7 @@ const Hour = () => {
                        <input type="text" placeholder='last name'/>
                        <input type="email" placeholder='email name'/>
                        </label>
-                       <Button text='contact us' pad='.7em 7em'/>
+                       <Button text='contact us' pad='.7em 3em'/>
 
                    </form>
                </div>

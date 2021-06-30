@@ -1,16 +1,14 @@
-import React, {useState, useEffect} from 'react'
-import Product from '../Product/Product'
-import Button from '../../Constants/button/button'
-import './favourite.css'
-import data from '../../pages/shop/data'
-const Favourite = () => {
-    const {products} = data
-    const [filterProduct, setFilterProduct] = useState([])
-    const [toggle, setToggle] = useState(false)
+import React, {useState, useEffect,useContext} from 'react'
 
- const   handleToggle =() =>{
-        setToggle(!toggle)
-    }
+import './favourite.css'
+import CartContext from '../context/CartContext'
+import data from '../../pages/shop/data'
+const Favourite = (props) => {
+    const {products} = data
+    const {onAdd} = props
+    const {addToCart} = useContext(CartContext)
+    const [filterProduct, setFilterProduct] = useState([])
+  
 
 useEffect(
     () =>{
@@ -30,7 +28,7 @@ useEffect(
                <div className="price">
                    ${product.price}
                </div>
-               <button  onClick={handleToggle} className='button'   pad='.6em 1em' >{toggle ===false? "add to cart" : "sign in to add"}</button>
+               <button className='favourbtn' onClick ={() => onAdd(product)}      > add to cart</button>
                <div>
                    
                    
@@ -40,6 +38,7 @@ useEffect(
           ))}  
         </div>
         </div>
+
     )
 }
 

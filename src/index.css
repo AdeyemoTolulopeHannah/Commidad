@@ -1,9 +1,18 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  
  
 }
 body{
   width: 100%;
   overflow-x: hidden;
+}
+button{
+  background: rgb(209, 133, 10);
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }

@@ -81,3 +81,42 @@ input::placeholder{
     font-size: 1.1em;
     color: #fff;
 }
+@media screen and (max-width: 1024px){
+    .wrap{
+        height: 55vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .hourWrapper{
+        flex-direction: column;
+      
+      
+    }
+    .wrap{
+        width: 450px;
+        padding: 4em  1em 0 1em;
+        height: 90vh; 
+        align-content: center;
+          margin: 4em auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hourWrapper{
+        flex-direction: column;
+        padding: 1em;
+    }
+    .wrap{
+     height: 110vh;
+        width: 300px;
+        margin: 4em  0;
+        padding: 4em  .5em 0 .5em;
+       
+    }
+    input{
+        width: 200px;
+        margin: .8em 2em;
+       
+     
+    }
+}

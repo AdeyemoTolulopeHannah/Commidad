@@ -1,11 +1,11 @@
-.logo img{
+.footlogo img{
     height: 50px;
     width: 120px;
     object-fit: cover;
     background-color: black;
 }
-.link{
-    font-size: 1em;
+.flink{
+    font-size: 1.2em;
     color: #fff;
     text-transform: capitalize;
     text-decoration: none;
@@ -21,9 +21,13 @@
     text-align: center;
     padding: 2em 3.5em;
 }
-.links,.social{
+.links,.socialink{
     display: flex;
+}
+.links{
+
     flex-direction: column;
+
 }
 .links h6,.social h6{
     text-transform: uppercase;
@@ -37,5 +41,42 @@
     text-decoration: none;
     color: #fff;
     padding-bottom: .6em;
+    padding-left: 2em;
     text-transform: uppercase;
+}
+.socialicon{
+width: 2em;
+height: 2em;
+}
+@media screen and (max-width: 540px){
+    .footlogo img{
+        height: 30px;
+        width: 90px;
+    }
+    .flink{
+        font-size: 1em;
+    
+    }
+    .footerWrapper{
+       
+        padding: 2em 2em;
+    }
+}
+@media screen and (max-width: 540px){
+    .social a{
+      
+        padding-left: 1em;
+      
+    }
+    .socialicon{
+        width: 1em;
+        height: 1em;
+        }
+        .links h6,.social h6{
+          
+            font-size: .8em;
+        }
+        .flink{
+            font-size: .8em;
+        }
 }

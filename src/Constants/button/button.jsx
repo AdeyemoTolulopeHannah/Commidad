@@ -4,7 +4,7 @@ import './button.css'
 const Button = ({color,text,pad}) => {
     return (
         <>
-           <button style={{backgroundColor:color, padding:pad}}> 
+           <button className='allbtn' style={{backgroundColor:color, padding:pad}}> 
             {text}
             </button> 
         </>

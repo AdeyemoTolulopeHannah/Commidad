@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Button from '../../Constants/button/button'
 import './banner.css'
 
@@ -11,7 +12,8 @@ const Banner = ({image,title}) => {
                
                <div className="content">
                    <h3>{title}</h3>
-               <Button  className='button'  color= "rgb(209, 133, 10)" text="grab food" pad=".8em 3em"/>
+                   <Link className='bannerbtn' to='/shop'>grab food </Link>
+              
                </div>
                
             </div>

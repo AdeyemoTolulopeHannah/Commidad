@@ -46,8 +46,8 @@
     font-size: 1.2em;
     margin: .5em 0;
 }
-button{
-    padding: .6em 1em;
+.favourbtn{
+     padding: .6em 3em;
     outline: none;
     border: none;
     color: #fff;
@@ -55,5 +55,15 @@ button{
     font-weight: 600;
     border-radius: 10px;
     text-transform: capitalize;
-    background-color: rgb(209, 133, 10);
+   
 }
+@media screen and (max-width: 768px){
+.favourbtn{
+    padding: .6em 2em;
+}
+.product{
+    width: 280px;
+}
+}
+
+

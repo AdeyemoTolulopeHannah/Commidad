@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from 'react'
-import Button from '../../Constants/button/button'
+import React, {useState, useContext} from 'react'
+import CartContext from '../context/CartContext'
 import  './product.css'
 const Product = (props) => {
-    const {product,onAdd} = props
+    const {product, onAdd} = props
+    const {addToCart} = useContext(CartContext)
 
 
 
@@ -17,7 +18,7 @@ const Product = (props) => {
                    ${product.price}
                </div>
                <div>
-                   <button onClick={onAdd}>add to cart</button>
+                   <button onClick ={() => onAdd(product)}>add to cart</button>
                </div>
                </div>
 

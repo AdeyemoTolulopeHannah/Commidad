@@ -1,25 +1,107 @@
 .nav{
     display: flex;
-    justify-content: space-between;
-    padding: 1em 3em;
+    align-content: center;
+    padding-bottom: .7em;
     background-color: #000;
 }
+.logo{
+    flex: 50%;
+    justify-content: left;
+}
 .logo img{
-    height: 50px;
-    width: 120px;
+    height: 40px;
+    width: 150px;
     object-fit: cover;
     background-color: black;
+  
+    
 }
 .navlink{
     align-items: center;
     align-content: center;
     margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4em;
+    flex: 50%;
+    
 }
+
+
 .link{
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #fff;
     font-weight: 500;
     text-transform: capitalize;
     text-decoration: none;
     padding-right: 1em;
+    cursor: pointer;
+  
+}
+.badge{
+    background: red;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+}
+.cart{
+    height: 1.5em;
+    width: 1.5em;
+}
+.navbtn{
+    margin-top: 40px;
+    height: 2em;
+    width: 3em;
+    color: #fff;
+    display: none;
+    margin-right: 1em;
+    
+}
+@media screen and (max-width: 480px){
+    .nav{
+        justify-content: space-between;
+    }
+   
+  .navlink{
+      display: none;
+
+  }
+  .navbtn{
+     
+      display: flex;
+
+  }
+  .logo img{
+    height: 20px;
+    width: 100px;
+    object-fit: cover;
+    background-color: black;
+  
+    
+}
+.link{
+    font-size: 1em;
+   
+    font-weight: 400;
+    padding-right: 0;
+    padding-bottom: 1em;
+    
+}
+.hidden{
+    align-items: center;
+    align-content: center;
+    margin-top: 3em;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4em;
+    flex-direction: column;
+
+}
+.badge{
+    padding: 5px;
+    font-size: 7px;
+}
 }

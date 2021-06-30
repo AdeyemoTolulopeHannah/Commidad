@@ -18,6 +18,47 @@ text-align: center;
  text-transform: uppercase;
 
 }
+.bannerbtn{
+  background: rgb(209, 133, 10);
+  padding: .8em 3em;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 700;
+    
+}
 .button{
   padding: 1em 4em;
+}
+@media screen and (max-width: 1024px){
+  .banner{
+    height: 60vh;
+  }
+  .content{
+    padding-top: 18em;
+  }
+}
+@media screen and (max-width: 768px){
+.content{
+  padding-top: 13em;
+}
+}
+@media screen and (max-width: 480px){
+  .banner{
+    height: 80vh;
+  }
+  .content{
+    padding-top: 10em;
+  }
+  .content h3{
+    font-size: 2em;
+   padding-bottom: 1em;
+  
+   
+   }
+   .bannerbtn{
+     padding: .7em 1.7em;
+   }
 }
