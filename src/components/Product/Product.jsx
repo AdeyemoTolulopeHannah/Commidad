@@ -1,9 +1,8 @@
 import React, {useState, useContext} from 'react'
-import CartContext from '../context/CartContext'
 import  './product.css'
 const Product = (props) => {
     const {product, onAdd} = props
-    const {addToCart} = useContext(CartContext)
+   
 
 
 

@@ -6,8 +6,7 @@ const Cart = (props) => {
     const itemsPrice = cartItems.reduce((a,c) => a+c.price * c.qty,0)
     const shippingPrice = itemsPrice <500 ? 17:50;
     const totalPrice = itemsPrice  +shippingPrice;
- //const {showCart,cartItems,showHideCart}= useContext(CartContext)
- //let opts ={format:"%s%v" , symbol: "£"};
+ 
  
     return (
         <>
@@ -49,23 +48,7 @@ const Cart = (props) => {
                </>
            )}
           
-         {/*  {cartItems.length === 0?(<h4>cart is empty</h4>):(
-               <ul>
-                   {cartItems.map(item =>(
-                       <CartItem key = {item._id} item ={item} />
-                   ))}
-               </ul>
-           )}
-           onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}
-       </div>
-       <div className="cartTotal">
-       <div>cart total</div>
-       <div></div>
-       <div>
-           {
-        cartItems.reduce((amount,item) => item.price + amount, 0)
-            } </div>
-        */}
+        
         </div>
         </>
     )

@@ -1,19 +1,18 @@
 import React, {useState, useEffect,useContext} from 'react'
 
 import './favourite.css'
-import CartContext from '../context/CartContext'
 import data from '../../pages/shop/data'
 const Favourite = (props) => {
     const {products} = data
     const {onAdd} = props
-    const {addToCart} = useContext(CartContext)
+    
     const [filterProduct, setFilterProduct] = useState([])
   
 
 useEffect(
     () =>{
         setFilterProduct(products.filter(product =>product.favourite === true))
-    }
+    },[]
 )
     return (
         <div className="productWrapper">

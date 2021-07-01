@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
-import {FiBar} from 'react-icons/fi'
+
 import {FaBars,FaShoppingCart} from 'react-icons/fa'
-import CartContext from '../context/CartContext'
+
 import './nav.css'
 
 
