@@ -29,9 +29,9 @@ const Hour = () => {
                    <p>Dialogue is an essential part of any script</p>
                    <form action="">
                        <label htmlFor="">
-                       <input type="text" placeholder='first name'/>
-                       <input type="text" placeholder='last name'/>
-                       <input type="email" placeholder='email name'/>
+                       <input type="text" placeholder='first name ' required/>
+                       <input type="text" placeholder='last name' required/>
+                       <input type="email" placeholder='email name' required/>
                        </label>
                        <Button text='contact us' pad='.7em 3em'/>
 

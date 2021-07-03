@@ -20,7 +20,7 @@ const Navbar = (props) => {
                  </div>
                    <nav className={show === true? "hidden": " navlink"} >
 
-                         <Link className='link' to ="/shop"> shop</Link>
+                         <Link className='link' to ="/shop"> order</Link>
                         
                          
                    

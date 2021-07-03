@@ -8,6 +8,7 @@
 body{
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 button{
   background: rgb(209, 133, 10);

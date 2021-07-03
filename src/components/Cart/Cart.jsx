@@ -11,7 +11,7 @@ const Cart = (props) => {
     return (
         <>
        <div className="cartWrapper">
-           <div>{cartItems.length ==0 && <div>cart is empty</div> }</div>
+           <div>{cartItems.length ==0 && <div className='empty'>cart is empty</div> }</div>
            {cartItems.map((item) =>(
                <div key ={item.id} className='cartcontain'>
                    <div className='cartname'>{item.name}</div>
@@ -36,7 +36,7 @@ const Cart = (props) => {
                </div>
                <div className="row">
                    <div>delivery price</div>
-                   <div className='cprice'> ${shippingPrice.toFixed(2)}</div>
+                   <div className='dprice'> ${shippingPrice.toFixed(2)}</div>
                </div>
                <div className="row">
                    <div> total price</div>
